@@ -69,14 +69,13 @@ class _AnimationsScreenState extends State<AnimationScreen> {
 
                       },
          padding: EdgeInsets.symmetric(horizontal: 30)
-                      ),
+                  ),
                 )
               ],
             ),
           ),
         )
-
-        );
+     );
   }
 
 }
