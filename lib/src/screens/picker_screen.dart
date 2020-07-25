@@ -75,7 +75,7 @@ return GestureDetector(
     children: <Widget>[
       const Text('Time'),
       Text(
-        DateFormat.jm().format(time),
+        DateFormat.jm().format(time),///Formato y dato que se postara
         style: TextStyle(color: CupertinoDynamicColor.resolve(CupertinoColors.inactiveGray, context)),
       ),
     ],
